@@ -1,0 +1,34 @@
+Sliding Window Technique in Java
+
+    The sliding window technique is a common algorithmic approach used to efficiently solve problems
+    involving subarrays or substrings. It involves maintaining a window of a fixed or variable size
+    that slides over the input sequence. This technique is particularly useful for problems that require
+    finding the maximum or minimum value within a specific window size or counting occurrences of a particular
+    pattern within a given window.
+
+How it Works:
+
+    Initialize the Window:
+        Define two pointers, left and right, to mark the boundaries of the window.
+        Initially, both pointers are set to the beginning of the input sequence.
+    Expand the Window:
+        Move the right pointer to the right, expanding the window.
+        Calculate the desired result for the current window.
+    Shrink the Window:
+        If the window size exceeds the required limit, move the left pointer to the right, shrinking the window.
+    Repeat:
+        Continue steps 2 and 3 until the right pointer reaches the end of the input sequence.
+        Example: Maximum Sum Subarray of Size K
+
+
+
+Key Points:
+
+    Efficiency: The sliding window technique often reduces time complexity by avoiding unnecessary calculations.
+    Flexibility: It can be adapted to solve various problems, including finding the longest substring without
+                 repeating characters, counting the number of occurrences of a substring, and more.
+    Sliding Window Variations: There are different variations of the sliding window technique, such
+                   as the fixed-size sliding window and the variable-size sliding window.
+
+    By understanding the sliding window technique, you can efficiently solve a wide range of algorithmic
+    problems in Java.

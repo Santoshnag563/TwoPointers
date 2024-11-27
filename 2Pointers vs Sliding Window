@@ -1,0 +1,43 @@
+Two-Pointer vs. Sliding Window: A Comparative Analysis
+
+    While both techniques involve using two pointers to traverse a data structure, they have distinct
+    characteristics and applications.
+
+Two-Pointer Technique:
+
+Core Idea:
+
+    Uses two pointers to iterate over a data structure, often in opposite directions, to solve
+    problems involving comparisons, merging, or finding specific patterns.
+
+Key Characteristics:
+
+    Pointers can move independently or in tandem.
+    Often used with sorted arrays or linked lists.
+    Focuses on the relationship between elements at the pointer positions.
+
+Common Use Cases:
+
+    Two Sum problem: Find two numbers that add up to a target sum.
+    Valid Palindrome: Determine if a string is a palindrome.
+    Merge Sorted Arrays: Merge two sorted arrays into a single sorted array.
+
+Sliding Window Technique:
+
+Core Idea:
+
+    Uses two pointers to maintain a window of a fixed or variable size over a data structure,
+    typically an array or string.
+
+Key Characteristics:
+
+    One pointer (right) expands the window, while the other (left) shrinks it.
+    Often used with arrays or strings to find subarrays or substrings with specific properties.
+    Focuses on the elements within the window and their collective properties.
+
+Common Use Cases:
+
+    1. Maximum Sum Subarray of Size K: Find the contiguous subarray of size K with the maximum sum.
+    2. Longest Substring Without Repeating Characters: Find the length of the longest substring without repeating
+    characters.
+    3. Minimum Window Substring: Find the minimum window substring that contains all characters of a given pattern.

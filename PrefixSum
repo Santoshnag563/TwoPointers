@@ -1,0 +1,35 @@
+Prefix Sum Approach in Java
+
+    The prefix sum approach is a technique used to efficiently calculate the sum of elements
+    within a specific range of an array. By precomputing cumulative sums, we can answer range sum queries in
+    constant time, significantly improving performance compared to iterating over the range for each
+    query.
+
+How it Works:
+
+        1. Create a Prefix Sum Array:
+
+            Initialize a new array prefixSum of the same size as the original array arr.
+            Set the first element of prefixSum to the first element of arr.
+            For each subsequent index i in arr, calculate the cumulative sum up to that index and store it
+            in prefixSum[i].
+
+        2. Answer Range Sum Queries:
+
+            To find the sum of elements in the range [i, j], simply subtract prefixSum[i-1] from prefixSum[j].
+
+Key Points:
+
+        Time Complexity:
+
+            Calculating the prefix sum array: O(n)
+            Answering range sum queries: O(1)
+
+        Space Complexity:
+
+            O(n) for the prefix sum array
+
+        Applications:
+
+            Efficiently calculating range sums in various algorithms and data structures.
+            Solving problems related to subarray sums, maximum subarray sum, and more.

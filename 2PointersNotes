@@ -1,0 +1,29 @@
+2 Pointers:
+    It is not DS or algorithm. It is a problem solving technique used to solve lot of problems
+
+Two Pointer Technique in Java
+
+    The two-pointer technique is a common algorithmic approach used to solve problems that involve iterating over two sequences in a coordinated manner. It's particularly useful for problems that require comparing, merging, or finding patterns within two sequences.
+
+How it works:
+
+    Initialization:
+        Two pointers, often named left and right, are initialized to specific positions in the sequences.
+    Iteration:
+        The pointers are moved in a controlled way, usually towards each other or in the same direction.
+        At each step, the elements pointed to by the pointers are compared or processed.
+    Termination:
+        The iteration continues until a certain condition is met, such as when the pointers cross each other or
+        reach the end of the sequences.
+
+
+Common Use Cases:
+
+    Two Sum Problem:
+        Given an array of integers, find two numbers such that they add up to a specific target number.
+    Merge Two Sorted Arrays:
+        Merge two sorted arrays into a single sorted array.
+    Valid Palindrome:
+        Determine whether a given string is a palindrome.
+    Remove Duplicates from Sorted Array:
+        Remove duplicate elements from a sorted array in-place.
